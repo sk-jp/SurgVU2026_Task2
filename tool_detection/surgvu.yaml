@@ -1,0 +1,53 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+# Example usage: yolo train data=coco8.yaml
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ./datalist # dataset root dir
+train: train_datalist.v2.txt # train images (relative to 'path')
+val: valid_datalist.v2.txt # val images (relative to 'path')
+test: # test images (optional)
+
+# Classes
+names:
+  0: needle_driver_tip
+  1: needle_driver_clevis
+  2: needle_driver_shaft
+  3: monopolar_curved_scissor_tip
+  4: monopolar_curved_scissor_clevis
+  5: monopolar_curved_scissor_shaft
+  6: force_bipolar_tip
+  7: force_bipolar_clevis
+  8: force_bipolar_shaft
+  9: clip_applier_tip
+  10: clip_applier_clevis
+  11: clip_applier_shaft
+  12: tip_up_fenestrated_grasper_tip
+  13: tip_up_fenestrated_grasper_clevis
+  14: tip_up_fenestrated_grasper_shaft
+  15: cadiere_forceps_tip
+  16: cadiere_forceps_clevis
+  17: cadiere_forceps_shaft
+  18: bipolar_forceps_tip
+  19: bipolar_forceps_clevis
+  20: bipolar_forceps_shaft
+  21: vessel_sealer_tip
+  22: vessel_sealer_clevis
+  23: vessel_sealer_shaft
+  24: suction_irrigator_tip
+  25: suction_irrigator_clevis
+  26: suction_irrigator_shaft
+  27: bipolar_dissector_tip
+  28: bipolar_dissector_clevis
+  29: bipolar_dissector_shaft
+  30: prograsp_forceps_tip
+  31: prograsp_forceps_clevis
+  32: prograsp_forceps_shaft
+  33: stapler_tip
+  34: stapler_clevis
+  35: stapler_shaft
+  36: permanent_cautery_hook_spatula_tip
+  37: permanent_cautery_hook_spatula_clevis
+  38: permanent_cautery_hook_spatula_shaft
+  39: grasping_retractor_tip
+  40: grasping_retractor_clevis
+  41: grasping_retractor_shaft
