@@ -1,0 +1,50 @@
+# Required inputs
+video: /path/to/case.mp4
+question: Which instrument is manipulating the tissue?
+# Alternatively:
+# question_file: question.txt
+
+# Prompt and optional context
+#
+# model_path: a local directory (pre-downloaded checkpoint) is loaded fully
+# offline. A bare Hugging Face Hub repo id, as below, is downloaded (and
+# cached under ~/.cache/huggingface) automatically the first time you run
+# vqa.py. To use a checkpoint you downloaded yourself instead, point this at
+# that directory, e.g.:
+#   huggingface-cli download Qwen/Qwen3.5-4B --local-dir ./Qwen3.5-4B
+#   model_path: ./Qwen3.5-4B
+model_path: Qwen/Qwen3.5-4B
+prompt_config: prompt_config.json
+few_shot_file: few_shots.json
+context: ""
+# context_file: context.txt
+
+# Organ classifier
+disable_organ_classifier: false
+organ_model_path: organs_classifier/efficientnet_v2_s_v3/epoch=29_test_loss=0.04914_f1_avg=0.98064.ckpt
+organ_device: auto
+organ_batch_size: 8
+
+# Tool detector (YOLO backend)
+disable_tool_detector: false
+tool_detector_backend: yolo
+tool_model_path: tool_detection/best.pt
+tool_class_config: tool_detection/surgvu.yaml
+tool_device: auto
+tool_batch_size: 8
+tool_confidence: 0.8
+tool_frame_count_threshold: 10
+
+# Video sampling: set either num_frames or fps, not both.
+num_frames: 32
+# fps: 2.0
+max_pixels: 262144
+
+# Text generation
+max_new_tokens: 256
+temperature: 0.0
+enable_thinking: false
+device_map: auto
+dtype: auto
+
+# output: answer.txt

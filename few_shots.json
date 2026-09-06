@@ -1,0 +1,117 @@
+[
+  {
+    "question": "Was a monopolar curved scissor used in this clip?",
+    "answer": "No.",
+    "additional_context": "Surgical tool detection across 32 sampled video frames: no surgical tool detected."
+  },
+  {
+    "question": "Was a grasping retractor used during the surgery?",
+    "answer": "No, there's no indication of grasping retractor.",
+    "additional_context": "Surgical tool detection across 32 sampled video frames: no surgical tool detected."
+  },
+  {
+    "question": "What kind of needle driver is used in this clip?",
+    "answer": "The needle driver type is large needle driver.",
+    "additional_context": "Surgical tool detection across 32 sampled video frames:\n- large needle driver: detected in 20 of 32 sampled frames (max confidence 0.90)."
+  },
+  {
+    "question": "Which specific grasper is shown?",
+    "answer": "The type of grasper mentioned is tip-up fenestrated grasper.",
+    "additional_context": "Surgical tool detection across 32 sampled video frames:\n- tip-up fenestrated grasper: detected in 20 of 32 sampled frames (max confidence 0.90)."
+  },
+  {
+    "question": "What organ is being manipulated?",
+    "answer": "The organ in focus is the uterine horn.",
+    "additional_context": "Detected organ in the sampled video frames: uterine horn."
+  },
+  {
+    "question": "What organ is visible in this clip?",
+    "answer": "The organ in focus is the sigmoid colon.",
+    "additional_context": "Detected organ in the sampled video frames: sigmoid colon."
+  },
+  {
+    "question": "Is suturing occurring during this clip?",
+    "answer": "No."
+  },
+  {
+    "question": "Does this clip show suturing?",
+    "answer": "No indication of suturing in this clip."
+  },
+  {
+    "question": "What type of surgery is being performed?",
+    "answer": "The procedure is likely endoscopic surgery or a laparoscopic surgery."
+  },
+  {
+    "question": "What surgical procedure does this clip show?",
+    "answer": "The clip is describing a robotic-assisted rectal resection."
+  },
+  {
+    "question": "Why is the tip-up fenestrated grasper being used here?",
+    "answer": "The purpose of tip-up fenestrated grasper is to grasp and manipulate tissue.",
+    "additional_context": "Surgical tool detection across 32 sampled video frames:\n- tip-up fenestrated grasper: detected in 20 of 32 sampled frames (max confidence 0.90)."
+  },
+  {
+    "question": "What role does the cadiere forceps play in this clip?",
+    "answer": "Cadiere forceps is utilized to grasp and hold tissue or other objects.",
+    "additional_context": "Surgical tool detection across 32 sampled video frames:\n- cadiere forceps: detected in 20 of 32 sampled frames (max confidence 0.90)."
+  },
+  {
+    "question": "Which tool is grasping the tissue in this clip?",
+    "answer": "The bipolar forceps.",
+    "additional_context": "Surgical tool detection across 32 sampled video frames:\n- bipolar forceps: detected in 20 of 32 sampled frames (max confidence 0.90)."
+  },
+  {
+    "question": "Which tool is grasping the tissue in this clip?",
+    "answer": "The permanent cautery hook spatula is currently manipulating the tissue.",
+    "additional_context": "Surgical tool detection across 32 sampled video frames:\n- permanent cautery hook spatula: detected in 20 of 32 sampled frames (max confidence 0.90)."
+  },
+  {
+    "question": "How many surgical instruments are visible in this clip?",
+    "answer": "A total of 4 instruments appear in this clip."
+  },
+  {
+    "question": "How many instruments are being used simultaneously?",
+    "answer": "There are 3 instruments visible."
+  },
+  {
+    "question": "Is the suction irrigator being controlled by the left or right arm?",
+    "answer": "The suction irrigator is on the left.",
+    "additional_context": "Surgical tool detection across 32 sampled video frames:\n- suction irrigator: detected in 20 of 32 sampled frames (max confidence 0.90)."
+  },
+  {
+    "question": "Is the grasping retractor being controlled by the left or right arm?",
+    "answer": "The grasping retractor is on the right.",
+    "additional_context": "Surgical tool detection across 32 sampled video frames:\n- grasping retractor: detected in 20 of 32 sampled frames (max confidence 0.90)."
+  },
+  {
+    "question": "Is there any visible bleeding in this clip?",
+    "answer": "Yes, there is visible bleeding in this clip."
+  },
+  {
+    "question": "Does this clip show any adverse event?",
+    "answer": "No."
+  },
+  {
+    "question": "Describe the action being performed in this clip.",
+    "answer": "In this clip, the surgeon is cauterizing a bleeding vessel."
+  },
+  {
+    "question": "What surgical action is taking place?",
+    "answer": "The surgeon is dissecting tissue along a tissue plane."
+  },
+  {
+    "question": "Is the surgical procedure being performed an open surgery?",
+    "answer": "No, it is robotic-assisted (minimally invasive) surgery.",
+    "additional_context": "Surgical tool detection across 32 sampled video frames:\n- cadiere forceps: detected in 22 of 32 sampled frames (max confidence 0.93)."
+  },
+  {
+    "question": "What procedure is this clip describing?",
+    "answer": "A robotic-assisted abdominal procedure.",
+    "additional_context": "Surgical tool detection across 32 sampled video frames: no surgical tool detected."
+  },
+  {
+    "question": "What is the location of the surgical procedure?",
+    "answer": "The pelvic region, involving the uterus.",
+    "additional_context": "Detected organ in the sampled video frames: uterine horn."
+  }
+]
