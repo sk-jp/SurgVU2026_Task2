@@ -25,7 +25,7 @@ DEFAULT_ORGAN_MODEL_PATH = (
     / "efficientnet_v2_s_v3"
     / "epoch=29_test_loss=0.04914_f1_avg=0.98064.ckpt"
 )
-DEFAULT_TOOL_MODEL_PATH = Path(__file__).with_name("tool_detection") / "best.pt"
+DEFAULT_TOOL_MODEL_PATH = Path(__file__).with_name("tool_detection") / "tool_detector.pt"
 DEFAULT_TOOL_CLASS_CONFIG = Path(__file__).with_name("tool_detection") / "surgvu.yaml"
 # None defers to rtdetr_tool_detector.RTDetrToolDetector's own default, which is
 # resolved relative to wherever it actually finds the category1 checkout (see

@@ -28,7 +28,7 @@ organ_batch_size: 8
 # Tool detector (YOLO backend)
 disable_tool_detector: false
 tool_detector_backend: yolo
-tool_model_path: tool_detection/best.pt
+tool_model_path: tool_detection/tool_detector.pt
 tool_class_config: tool_detection/surgvu.yaml
 tool_device: auto
 tool_batch_size: 8

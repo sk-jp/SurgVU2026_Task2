@@ -42,15 +42,15 @@ processes (VLM, organ classification, instrument detection).
 │   └── efficientnet_v2_s_v3/
 │       └── (epoch=29_test_loss=0.04914_f1_avg=0.98064.ckpt)   organ classifier weights (download separately)
 └── tool_detection/
-    ├── best.pt                    YOLO instrument detector weights
+    ├── tool_detector.pt            YOLO instrument detector weights
     └── surgvu.yaml                42-class definition for instrument detection (14 instruments × tip/clevis/shaft)
 ```
 
 The Qwen3.5-4B weights and the organ classifier weights are large and are
 not included in this repository. Obtain them separately as described in
 "Preparing the Qwen model" and "Preparing the organ classifier model"
-below (the instrument detector weights `tool_detection/best.pt` are small
-enough to be included in this repository).
+below (the instrument detector weights `tool_detection/tool_detector.pt` are
+small enough to be included in this repository).
 
 ## Setup
 
@@ -204,12 +204,14 @@ under "Usage" above.
 - No fine-tuning or online API calls are performed. Other than fetching the
   Qwen model weights (downloading from the Hugging Face Hub), no network
   access occurs.
-- `tool_detection/best.pt` (about 40MB) is included in this repository. If
-  you'd rather not rely on the copy checked into git (e.g. a shallow
-  clone, or the file is missing for some other reason), it is also
+- `tool_detection/tool_detector.pt` (about 40MB) is included in this
+  repository. If you'd rather not rely on the copy checked into git (e.g. a
+  shallow clone, or the file is missing for some other reason), it is also
   available from Dropbox:
   https://www.dropbox.com/scl/fi/uwhar54exvn955yqcl95o/best.pt?rlkey=28x71n3jlwur2pcxff8u85no8&st=q7rzv18z&dl=0
-  — download it and place it at `tool_detection/best.pt`.
+  
+  — download it and place it at `tool_detection/tool_detector.pt` (the
+  downloaded file is named `best.pt`; rename it after downloading).
   The trained weights under `organs_classifier/` (about 78MB) are large and
   not included; obtain them separately from Google Drive as described in
   "Preparing the organ classifier model" above.
