@@ -1,12 +1,15 @@
-臓器分類モデルの学習済み重み（.ckpt）はサイズが大きいため、このリポジトリには
-含まれていません。
+The trained organ classification model weights (.ckpt) are not included in
+this repository because of their large size.
 
-下記のGoogle Driveからダウンロードし、このディレクトリに配置してください。
+Please download them from the Google Drive link below and place them in
+this directory.
 
   https://drive.google.com/drive/folders/1Fbnf1htcuoRPk3iGnnMliPTs9ULSkdPT
 
-配置後の想定パス（vqa_config.yaml の organ_model_path の既定値）:
+Expected path after placement (default value of organ_model_path in
+vqa_config.yaml):
 
   organs_classifier/efficientnet_v2_s_v3/epoch=29_test_loss=0.04914_f1_avg=0.98064.ckpt
 
-詳細は 5_github/README.md の「臓器分類モデルの準備」を参照してください。
+See "Preparing the organ classification model" in 5_github/README.md for
+details.
